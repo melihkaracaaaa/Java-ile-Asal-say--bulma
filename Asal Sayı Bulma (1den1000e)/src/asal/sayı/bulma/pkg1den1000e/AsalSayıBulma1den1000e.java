@@ -1,12 +1,12 @@
 
-package asal.sayı.bulma.pkg1den1000e;
+package asal.sayi.bulma.pkg1den1000e;
 
-public class AsalSayıBulma1den1000e {
-    public static boolean asalMi(int sayı) {
+public class AsalSayiBulma1den1000e {
+    public static boolean asalMi(int sayi) {
         
         for (int i = 2 ; i < sayı ; i++) {
             
-            if (sayı % i == 0) {
+            if (sayi % i == 0) {
                 
                 return false;
                 
